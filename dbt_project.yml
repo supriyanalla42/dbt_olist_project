@@ -35,6 +35,7 @@ models:
       relation: true
       columns: true
     staging:
+      +tags: ["hourly"]
       +materialized: view
     intermediate:
       +materialized: view
